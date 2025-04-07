@@ -28,5 +28,34 @@ int main() {
     // Sugestão: Implemente a movimentação do Cavalo utilizando loops com variáveis múltiplas e condições avançadas.
     // Inclua o uso de continue e break dentro dos loops.
 
+    // ----------- Movimento da Torre -----------
+    // Estrutura de repetição: for
+    // Movimento: 5 casas para a direita
+    printf("Movimento da TORRE (5 casas para a direita):\n");
+    for (int i = 1; i <= 5; i++) {
+        printf("Direita\n");
+    }
+
+    // ----------- Movimento do Bispo -----------
+    // Estrutura de repetição: while
+    // Movimento: 5 casas na diagonal para cima e à direita
+    printf("\nMovimento do BISPO (5 casas na diagonal Cima Direita):\n");
+    int j = 1;
+    while (j <= 5) {
+        printf("Cima Direita\n");
+        j++;
+    }
+
+    // ----------- Movimento da Rainha -----------
+    // Estrutura de repetição: do-while
+    // Movimento: 8 casas para a esquerda
+    printf("\nMovimento da RAINHA (8 casas para a esquerda):\n");
+    int k = 1;
+    do {
+        printf("Esquerda\n");
+        k++;
+    } while (k <= 8);
+    
+
     return 0;
 }
